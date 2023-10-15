@@ -2,7 +2,6 @@ import express from "express";
 
 const app = express();
 const port = 3000;
-const { format } = require("date-fns");
 
 app.get("/", (req, res) => {
   res.send("<h1>Homepage</h1><a href='/info'>Info page</a>");
