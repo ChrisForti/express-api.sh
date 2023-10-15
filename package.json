@@ -4,6 +4,7 @@
     "uuid": "^9.0.1"
   },
   "name": "express-api.sh",
+  "type": "module",
   "description": "",
   "version": "1.0.0",
   "main": "test.js",
